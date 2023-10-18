@@ -1,0 +1,5 @@
+Credentials cache: API:44C84C70-4628-48FE-8CEB-57FA8D3B303C
+        Principal: esoylu@42ISTANBUL.COM.TR
+
+  Issued                Expires               Principal
+Nov 22 18:31:15 2021  Nov 23 04:31:09 2021  krbtgt/42ISTANBUL.COM.TR@42ISTANBUL.COM.TR

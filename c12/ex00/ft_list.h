@@ -1,0 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: esoylu <42istanbul.com.tr>                 +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/02 17:37:09 by esoylu            #+#    #+#             */
+/*   Updated: 2021/12/14 16:10:02 by esoylu           ###   ########.tr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef FT_LIST_H
+# define FT_LIST_H
+
+typedef struct s_list
+{
+	void			*data;
+	struct s_list	*next;
+}	t_list;
+
+t_list	*ft_create_elem(void *data);
+#endif
